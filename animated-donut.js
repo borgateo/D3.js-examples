@@ -3,21 +3,23 @@ var dataset = {
     upper: [100,0]
 };
 
-var duration   = 500,
-    transition = 200;
+var duration   = 500;
+var transition = 200;
 
-var width = 460,
-    height = 300,
-    radius = Math.min(width, height) / 2;
-var pie = d3.layout.pie().sort(null);
+// donut size
+var width      = 460;
+var height     = 300;
+var radius     = Math.min(width, height) / 2;
+var pie        = d3.layout.pie().sort(null);
 
-var color = d3.scale.category20();
+var color      = d3.scale.category20();
 
 var arc = d3.svg.arc()
     .innerRadius(radius - 100)
     .outerRadius(radius - 75);
 
-var svg = d3.select("#svg_donut").append("svg")
+// let's append the new SVG element to the body
+var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height)
     .append("g")
