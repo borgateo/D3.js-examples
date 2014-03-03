@@ -1,5 +1,7 @@
 D3.js-examples
 ==============
+This project contains some D3 graph examples. They can be pretty handy as bootstrap code.
+
 
 ##Donut chart
 Animated donut chart that visualises 2 percentage values.
