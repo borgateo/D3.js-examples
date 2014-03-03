@@ -1,7 +1,7 @@
 D3.js-examples
 ==============
 
-#Donut chart
+##Donut chart
 Animated donut chart that visualises 2 percentage values.
 Initially the donut is completly blank. 
 After the timeout, a clockwise animation fills the chart.
