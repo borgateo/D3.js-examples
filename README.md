@@ -10,8 +10,7 @@ After the timeout, a clockwise animation fills the chart.
 
 TODO: being able to pass N values.
 
-##Grouped bar chart
-This example creates a 2-grouped bar chart. 
-It's possible to add N barchart adding more element into the Array.
+##Grouped multi-bar chart
+This example creates a 2-bar grouped chart. The script accepts n-bar grouped chart.
 
 
